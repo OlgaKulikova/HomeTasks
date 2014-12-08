@@ -1,0 +1,11 @@
+package module1.lesson4.task1;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(createText("String", 5, 2.9));
+    }
+
+    public static String createText(String someString, int i, double d) {
+        return "S = " + someString + " + " + i + " + " + d;
+    }
+}
