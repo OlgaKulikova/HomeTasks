@@ -1,0 +1,25 @@
+/**
+ * Написать функцию, которая принимает массив чисел в качестве аргумента,
+ * увеличивает его первые 3 элемента на 1 и возвращает их сумму как результат.
+ * После изменения массив и сумму надо вывести на экран.
+ */
+public class z2 {
+    public static int myArray(int a[]) {
+        for (int i = 0; i < 3; i++) {
+            a[i] = a[i] + 1;
+        }
+        int sumA = 0;
+
+        for (int i = 0; i <a.length ; i++) {
+            sumA = sumA + a[i];
+        }
+        return sumA;
+    }
+
+    public static void main(String[] args) {
+        int a[] = {3, 1, 1, 1};
+        int z = myArray(a);
+        System.out.println("Сумма: " + z);
+        System.out.println("Масив: " + Arrays.toString(a));
+    }
+}
