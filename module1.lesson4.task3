@@ -1,0 +1,17 @@
+package module1.lesson4.task3;
+
+/*
+Написать ф-ю, которая принимает на вход массив чисел и возвращает его длину в байтах как результат.
+*/
+
+public class Main {
+    public static void main(String[] args) {
+
+        int[] array = new int[] {1, 2, 3, 4, 5};
+        System.out.println(checkLength(array));
+    }
+
+    public static int checkLength(int[] array) {
+        return array.length * 4;
+    }
+}
