@@ -1,0 +1,21 @@
+package module1.lesson4.task4;
+
+/*
+Написать ф-ю для объединения 2-х массивов в один. Вывести результат на консоль.
+*/
+
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+
+        String[] arr1 = new String[] {"one", "two", "three"};
+        String[] arr2 = new String[] {"four", "five", "six"};
+        String[] arrRes = new String[arr1.length + arr2.length];
+        
+        System.arraycopy(arr1, 0, arrRes, 0, arr1.length);
+        System.arraycopy(arr2, 0, arrRes, arr1.length, arr2.length);
+        
+        System.out.println(Arrays.toString(arrRes));
+    }
+}
