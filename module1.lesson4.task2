@@ -23,3 +23,30 @@ public class z2 {
         System.out.println("Масив: " + Arrays.toString(a));
     }
 }
+
+//Вариант Оли
+
+package module1.lesson4.task2;
+
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+
+        int[] array = new int[] {1, 2, 3, 4, 5};
+        int sum = changeArray(array);
+
+        System.out.println(Arrays.toString(array));
+        System.out.println(sum);
+    }
+
+    public static int changeArray(int[] array) {
+        int sum = 0;
+        for (int i = 0; i < 3; i++) {
+            array[i]++;
+            sum += array[i];
+        }
+
+        return sum;
+    }
+}
