@@ -9,3 +9,17 @@ public class Main {
         return "S = " + someString + " + " + i + " + " + d;
     }
 }
+
+// Вариант Рус
+
+public class z1 {
+    private static String funk(String x, int y, double z) {
+        String S = x + y + z;
+        return S;
+    }
+
+    public static void main(String[] args) {
+        String S = funk("string", 1, 3.5);
+        System.out.println(S);
+    }
+}
