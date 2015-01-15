@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="org.hibernate:hibernate-validator-annotation-processor:4.2.0.Final" type="repository">
+    <properties maven-id="org.hibernate:hibernate-validator-annotation-processor:4.2.0.Final" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-validator-annotation-processor/4.2.0.Final/hibernate-validator-annotation-processor-4.2.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-validator/4.2.0.Final/hibernate-validator-4.2.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
